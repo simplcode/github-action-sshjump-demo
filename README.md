@@ -16,5 +16,5 @@ SSH Jump를 이용한 Github Action 데모.
 ### Branch
 - develop 브랜치로의 push를 감지하여 배포를 수행.
 ## 주의 사항
-- main또는 default로 지정된 브랜치에 action을 설정해야 동작함.
+- master또는 default로 지정된 브랜치에 workflow를 포함해야 동작함.
 - build 과정에서 생성되는 artifact는 기본 90일의 보관기간을 가지므로 action이 빈번하게 실행될 경우 Artifact storage quota가 가득찰 수 있슴. workflow 또는 repository 설정에서 기간을 조정 필요함.
